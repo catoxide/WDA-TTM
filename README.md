@@ -19,7 +19,7 @@ This datapack **requires** all of the following (it overrides a DDA structure an
 - Theoretically compatible with any version supported by **Create 6.0** (1.20.1, 1.21.1, or newer).
 
 ## Notes
-- **Datapack only** — no mod version is provided (for now).
+- **Datapack only** — no mod version is provided (for now, welcome contributors).
 - Non-commercial fan work. Structures © When Dungeons Arise team.
 
 ## Installation
