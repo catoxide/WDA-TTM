@@ -1,0 +1,61 @@
+modLoader = 'lowcodefml'
+loaderVersion = '[1,)'
+license = 'LicenseRef-All-Rights-Reserved'
+showAsResourcePack = false
+
+[[mods]]
+modId = 'wda_ttm'
+version = '1.0.1'
+displayName = 'WDA-TTM - Thornborn Towers Remake'
+authors = 'catoxide'
+displayURL = 'https://github.com/catoxide/WDA-TTM'
+description = '''
+Fan remake loot and structure overrides for When Dungeons Arise thornborn_towers.
+Data-only mod: ships no Java code.
+
+Structures and When Dungeons Arise assets are (c) the When Dungeons Arise team
+(Aurelj, DiamonDtown, Zephyrusj), All Rights Reserved.
+WDA-TTM additions are All Rights Reserved by catoxide; non-commercial use only.
+'''
+
+[[dependencies.wda_ttm]]
+modId = 'minecraft'
+type = 'required'
+versionRange = '[1.21.1]'
+ordering = 'NONE'
+side = 'BOTH'
+
+[[dependencies.wda_ttm]]
+modId = 'neoforge'
+type = 'required'
+versionRange = '[21.1.0,)'
+ordering = 'NONE'
+side = 'BOTH'
+
+[[dependencies.wda_ttm]]
+modId = 'dungeons_arise'
+type = 'required'
+versionRange = '[2.1.68,)'
+ordering = 'AFTER'
+side = 'BOTH'
+
+[[dependencies.wda_ttm]]
+modId = 'create'
+type = 'required'
+versionRange = '[0,)'
+ordering = 'NONE'
+side = 'BOTH'
+
+[[dependencies.wda_ttm]]
+modId = 'supplementaries'
+type = 'required'
+versionRange = '[0,)'
+ordering = 'NONE'
+side = 'BOTH'
+
+[[dependencies.wda_ttm]]
+modId = 'quark'
+type = 'required'
+versionRange = '[0,)'
+ordering = 'NONE'
+side = 'BOTH'

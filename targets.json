@@ -1,0 +1,16 @@
+{
+  "modId": "wda_ttm",
+  "version": "1.0.1",
+  "datapack": "datapack",
+  "datapackPackFormat": 48,
+  "targets": {
+    "neoforge-1.21.1": {
+      "loader": "neoforge",
+      "minecraft": "1.21.1",
+      "metadata": "mods/neoforge-1.21.1/neoforge.mods.toml",
+      "metadataDest": "META-INF/neoforge.mods.toml",
+      "artifact": "WDA-TTM-1.21.1-neoforge-1.0.1.jar",
+      "datapackArtifact": "WDA-TTM-1.21.1.zip"
+    }
+  }
+}
